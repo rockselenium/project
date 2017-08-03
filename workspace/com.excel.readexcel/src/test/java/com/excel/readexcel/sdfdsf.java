@@ -1,22 +1,11 @@
 package com.excel.readexcel;
 
+import org.junit.Test;
+
 public class sdfdsf {
-	public static void main(String[] args) throws InterruptedException {
-		int febCount = 15;
-		int[] feb = new int[febCount];
-		feb[0] = 1;
-
-		feb[1] = 1;
-		for (int i = 2; i < febCount; i++) {
-			
-			feb[i] = feb[i - 1] + feb[i - 2];
-			
-		}
-
-		for (int i = 0; i < febCount; i++) {
-			
-			System.out.print(feb[i] + " ");
-		}
-
+	@Test
+	public void test() {
+		excel.readDataFromExcel(1,
+				"C:\\Users\\inty\\workspace\\com.excel.readexcel\\src\\test\\resources\\TestData.xlsx", "Sheet1");
 	}
 }

@@ -4,6 +4,7 @@
   <test name="Test">
     <classes>
       <class name="com.excel.readexcel.ReadData"/>
+      <class name="com.excel.readexcel.ReadExcel"></class>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
